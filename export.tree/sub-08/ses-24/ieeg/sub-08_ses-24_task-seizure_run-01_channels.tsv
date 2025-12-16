@@ -1,3 +1,0 @@
-name	type	units	low_cutoff	high_cutoff	sampling_frequency	description
-EEG001,1+,4-	DBS	uV	1.5	159	200	Left-Hippocampal
-EEG002,1+,4-	DBS	uV	1.5	159	200	Right-Hippocampal
