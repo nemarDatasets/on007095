@@ -1,0 +1,14 @@
+onset	duration	begsample	endsample	offset	type
+0.975	0.105	196	216	0	stimulation
+1.835	0.105	368	388	0	stimulation
+2.695	0.105	540	560	0	stimulation
+3.555	0.105	712	732	0	stimulation
+18.5	0.105	3701	3721	0	stimulation
+19.36	0.105	3873	3893	0	stimulation
+20.22	0.105	4045	4065	0	stimulation
+21.08	0.105	4217	4237	0	stimulation
+61.625	0.105	12326	12346	0	stimulation
+62.485	0.105	12498	12518	0	stimulation
+63.345	0.105	12670	12690	0	stimulation
+64.2049	0.105	12841.98	12861.98	0	stimulation
+65.0649	0.105	13013.98	13033.98	0	stimulation
