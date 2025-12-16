@@ -1,0 +1,3 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	description
+EEG001,2+,4-	ECOG	uV	1.5	159	200	Left-Temporo-occipital-junction
+EEG002,2+,4-	ECOG	uV	1.5	159	200	Left-Temporal-fusiformgyrus
