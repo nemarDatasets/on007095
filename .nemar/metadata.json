@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on007095",
-  "source": "openneuro",
-  "source_id": "ds007095",
+  "pipeline_stage": "enriched",
   "title": "RNS_Epilepsy-iBIDS",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Chen Feng": {},
     "Haoqi Ni": {},
@@ -15,35 +15,85 @@
     "Kedi Xu": {},
     "Junming Zhu": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds007095.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on007095",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on007095",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.8.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
-      "funder_name": "National Science and Technology Major Project (2025ZD0215100)"
+      "funder_name": "National Science and Technology Major Project",
+      "award_number": "2025ZD0215100"
     },
     {
-      "funder_name": "Science and Technology Innovation 2030-Major Project (2021ZD0200404)"
+      "funder_name": "Science and Technology Innovation 2030-Major Project",
+      "award_number": "2021ZD0200404"
     },
     {
-      "funder_name": "National Natural Science Foundation of China (Grant No. 82272112)"
+      "funder_name": "National Natural Science Foundation of China",
+      "award_number": "82272112"
     },
     {
-      "funder_name": "Outstanding Youth Program of Zhejiang Natural Science Foundation (LR23H180002)"
+      "funder_name": "Zhejiang Natural Science Foundation",
+      "award_number": "LR23H180002",
+      "award_title": "Outstanding Youth Program"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, recorded from bilateral epileptic lesion areas. Each recording contains 90 seconds of dual-channel iEEG centered on stimulation events, with detailed stimulation parameters and seizure annotations. The dataset enables investigation of seizure onset pattern alterations during epilepsy progression and iEEG characteristic changes following electrical stimulation.",
+  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording segment spans 90 seconds: 60 seconds pre-stimulation and approximately 30 seconds post-stimulation. Stimulation markers, onset times, and durations are documented in events.tsv files, while electrical stimulation parameters are recorded in ieeg.json files. Data were acquired in EDF format and converted to BIDS using FieldTrip (version 20250114). Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
+  "keywords": [
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "responsive neurostimulation"
+    },
+    {
+      "term": "RNS"
+    },
+    {
+      "term": "seizure detection"
+    },
+    {
+      "term": "intracranial electroencephalography"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "seizure onset"
+    }
+  ],
+  "source_hash": "3f515b2f11d887043e47ff687ca0ca02d548462bbfed7c868214e87dcf8cf564"
 }
