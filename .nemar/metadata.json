@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "RNS_Epilepsy-iBIDS",
+  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, recorded from bilateral epileptic lesion areas. Each recording contains 90 seconds of dual-channel iEEG centered on stimulation events, with stimulation parameters and markers documented. The dataset enables investigation of seizure onset pattern alterations during epilepsy progression and iEEG characteristic changes following electrical stimulation.",
+  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording segment spans 90 seconds: 60 seconds pre-stimulation and approximately 30 seconds post-stimulation. Data were acquired in EDF format and converted to BIDS using FieldTrip (version 20250114). Stimulation markers and electrical parameters are documented in events.tsv and ieeg.json files respectively. Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -15,12 +17,29 @@
     "Kedi Xu": {},
     "Junming Zhu": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds007095.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "iEEG"
     },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "responsive neurostimulation"
+    },
+    {
+      "term": "seizure detection"
+    },
+    {
+      "term": "intracranial electroencephalography"
+    },
+    {
+      "term": "electrical stimulation"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on007095",
       "identifier_type": "URL",
@@ -30,6 +49,11 @@
       "identifier": "https://nemar.org/dataset/on007095",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds007095.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -47,53 +71,23 @@
     },
     {
       "funder_name": "Zhejiang Natural Science Foundation",
-      "award_number": "LR23H180002",
-      "award_title": "Outstanding Youth Program"
+      "award_number": "LR23H180002"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "514.8 MB (6020 files)"
   ],
   "formats": [
     ".edf",
     ".json",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, recorded from bilateral epileptic lesion areas. Each recording contains 90 seconds of dual-channel iEEG centered on stimulation events, with detailed stimulation parameters and seizure annotations. The dataset enables investigation of seizure onset pattern alterations during epilepsy progression and iEEG characteristic changes following electrical stimulation.",
-  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording segment spans 90 seconds: 60 seconds pre-stimulation and approximately 30 seconds post-stimulation. Stimulation markers, onset times, and durations are documented in events.tsv files, while electrical stimulation parameters are recorded in ieeg.json files. Data were acquired in EDF format and converted to BIDS using FieldTrip (version 20250114). Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
-  "keywords": [
-    {
-      "term": "iEEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "responsive neurostimulation"
-    },
-    {
-      "term": "RNS"
-    },
-    {
-      "term": "seizure detection"
-    },
-    {
-      "term": "intracranial electroencephalography"
-    },
-    {
-      "term": "electrical stimulation"
-    },
-    {
-      "term": "seizure onset"
-    }
-  ],
-  "source_hash": "3f515b2f11d887043e47ff687ca0ca02d548462bbfed7c868214e87dcf8cf564"
+  "source_hash": "8dd84dc518ad53b9c450c8d6982454798f2436636bc4d8def60bcec9c495a6fe"
 }
