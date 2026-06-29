@@ -1,4 +1,6 @@
-﻿Dataset of long-term iEEG invasively recorded in epilepsy patients implanted with responsive neurostimulation system  (RNS)
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007095-blue)](https://doi.org/10.82901/nemar.on007095)
+
+Dataset of long-term iEEG invasively recorded in epilepsy patients implanted with responsive neurostimulation system  (RNS)
 ----------
 We provided a long-term intracranial electroencephalography (iEEG) dataset of 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices. The dataset was constituted by iEEG data recorded from bilateral epileptic lesion areas.
 
