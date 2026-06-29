@@ -1,0 +1,49 @@
+{
+  "version": "2.0",
+  "dataset_id": "on007095",
+  "source": "openneuro",
+  "source_id": "ds007095",
+  "title": "RNS_Epilepsy-iBIDS",
+  "authors": {
+    "Chen Feng": {},
+    "Haoqi Ni": {},
+    "Zhoule Zhu": {},
+    "Hongjie Jiang": {},
+    "Zhe Zheng": {},
+    "Wenjie Ming": {},
+    "Shuang Wang": {},
+    "Kedi Xu": {},
+    "Junming Zhu": {}
+  },
+  "license": "CC0",
+  "dataset_type": "raw",
+  "related_identifiers": [
+    {
+      "identifier": "10.18112/openneuro.ds007095.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsIdenticalTo"
+    }
+  ],
+  "pipeline_stage": "seeded",
+  "bids_version": "1.8.0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Science and Technology Major Project (2025ZD0215100)"
+    },
+    {
+      "funder_name": "Science and Technology Innovation 2030-Major Project (2021ZD0200404)"
+    },
+    {
+      "funder_name": "National Natural Science Foundation of China (Grant No. 82272112)"
+    },
+    {
+      "funder_name": "Outstanding Youth Program of Zhejiang Natural Science Foundation (LR23H180002)"
+    }
+  ]
+}
