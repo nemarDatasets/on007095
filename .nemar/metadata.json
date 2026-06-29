@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RNS_Epilepsy-iBIDS",
-  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, recorded from bilateral epileptic lesion areas. Each recording contains 90 seconds of dual-channel iEEG centered on stimulation events, with stimulation parameters and markers documented. The dataset enables investigation of seizure onset pattern alterations during epilepsy progression and iEEG characteristic changes following electrical stimulation.",
-  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording segment spans 90 seconds: 60 seconds pre-stimulation and approximately 30 seconds post-stimulation. Data were acquired in EDF format and converted to BIDS using FieldTrip (version 20250114). Stimulation markers and electrical parameters are documented in events.tsv and ieeg.json files respectively. Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
+  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, comprising bilateral recordings from epileptic lesion areas. Each recording captures 90 seconds of dual-channel iEEG centered on stimulation events, with detailed stimulation parameters and seizure event markers. The dataset enables investigation of seizure onset pattern evolution and iEEG characteristic changes following electrical stimulation therapy.",
+  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording contains 90 seconds of dual-channel iEEG (60 seconds pre-stimulation and ~30 seconds post-stimulation). Data were acquired in weekly sessions over periods exceeding six months per patient. Stimulation parameters were documented by neurosurgeons during clinical follow-ups. Data were saved in EDF format and converted to BIDS using FieldTrip (version 20250114). Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -33,7 +33,7 @@
       "term": "seizure detection"
     },
     {
-      "term": "intracranial electroencephalography"
+      "term": "intracranial electrodes"
     },
     {
       "term": "electrical stimulation"
