@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "RNS_Epilepsy-iBIDS",
-  "description": "A long-term intracranial electroencephalography (iEEG) dataset from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, comprising bilateral recordings from epileptic lesion areas. Each recording captures 90 seconds of dual-channel iEEG centered on stimulation events, with detailed stimulation parameters and seizure event markers. The dataset enables investigation of seizure onset pattern evolution and iEEG characteristic changes following electrical stimulation therapy.",
-  "methods_description": "iEEG data were recorded invasively from bilateral epileptic lesion areas in RNS-implanted patients. Each recording contains 90 seconds of dual-channel iEEG (60 seconds pre-stimulation and ~30 seconds post-stimulation). Data were acquired in weekly sessions over periods exceeding six months per patient. Stimulation parameters were documented by neurosurgeons during clinical follow-ups. Data were saved in EDF format and converted to BIDS using FieldTrip (version 20250114). Technical validation included power spectral analysis, envelope length calculation, and phase locking value computation.",
+  "description": "This dataset comprises long-term intracranial EEG (iEEG) recordings from 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices, recorded from bilateral epileptic lesion areas over periods exceeding six months. Each recording captures dual-channel iEEG activity around electrical stimulation events, including pre- and post-stimulation periods, with associated stimulation parameters and event markers. The dataset is intended to support analysis of seizure onset pattern alterations during epilepsy progression and iEEG characteristic changes following electrical stimulation.",
+  "methods_description": "Long-term iEEG data were invasively recorded from bilateral epileptic lesion areas in epilepsy patients implanted with RNS devices. Each recording contains 90 seconds of dual-channel iEEG data centered on each stimulation event (60 seconds before onset, ~30 seconds after end). Stimulation markers with onset and duration are stored in events.tsv files, and electrical stimulation parameters set during clinical follow-up are stored in ieeg.json files. Data were saved in EDF format and organized according to BIDS. Patients were included if seizure events were recorded intracranially for more than six months, with each session representing one week of recordings. Technical validation was performed using power spectral analysis, envelope length calculation, and phase locking value calculation.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,7 +19,7 @@
   },
   "keywords": [
     {
-      "term": "iEEG"
+      "term": "intracranial EEG"
     },
     {
       "term": "Epilepsy",
@@ -30,13 +30,16 @@
       "term": "responsive neurostimulation"
     },
     {
-      "term": "seizure detection"
-    },
-    {
-      "term": "intracranial electrodes"
+      "term": "Alcohol Withdrawal Seizures",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020270"
     },
     {
       "term": "electrical stimulation"
+    },
+    {
+      "term": "phase locking value"
     }
   ],
   "related_identifiers": [
@@ -70,7 +73,7 @@
       "award_number": "82272112"
     },
     {
-      "funder_name": "Zhejiang Natural Science Foundation",
+      "funder_name": "Outstanding Youth Program of Zhejiang Natural Science Foundation",
       "award_number": "LR23H180002"
     }
   ],
