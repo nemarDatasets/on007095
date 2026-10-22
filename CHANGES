@@ -1,4 +1,4 @@
-Unreleased 2026-10-18
+1.0.1 2026-10-22
   - channels.tsv of 1 recordings = the data-file header channel list (name, order, count; matched by name): 0 rows renamed to the header name, 0 rows added, 1 rows removed (kept in sourcedata/channels-removed-2026-10-18/), 0 files reordered. Before, mne_bids could not apply channels.tsv to these files (count or name mismatch).
   - README: section 'Channel names follow the data headers'.
 
