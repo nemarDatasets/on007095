@@ -9,7 +9,7 @@
 	"PowerLineFrequency":"n/a",
 	"RecordingDuration":91,
 	"RecordingType":"continuous",
-	"SEEGChannelCount":2,
+	"SEEGChannelCount":1,
 	"SamplingFrequency":200,
 	"SoftwareFilters":"n/a",
 	"SoftwareVersions":"Matlab R2024b",
